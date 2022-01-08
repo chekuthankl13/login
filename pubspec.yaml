@@ -1,0 +1,39 @@
+name: shopdibz
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.0.1
+  firebase_auth: ^3.3.4
+  firebase_core: ^1.10.6
+  clay_containers: ^0.3.2
+  google_fonts: ^2.2.0
+  form_field_validator: ^1.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
